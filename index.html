@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Domine:wght@700&display=swap" rel="stylesheet">
+    <title>Responsive Website</title>
+</head>
+<style>
+    body{
+        background-repeat: no-repeat;
+        background-image:url('/images/hello.webp');
+        background-size:cover;
+    }
+    
+    .taskbar{
+        position: absolute;
+        left: 34px;
+        top: 18px;
+        display: inline-block;
+    }
+    .taskbar img{
+        width: 136px;
+        padding-left: 0px;
+        border-radius: 50%;
+        
+    }
+    .taskbar div{
+        color:gold;
+        font-size: 26px;
+    }
+
+    .main{
+        display: block;
+        width: 36%;
+        margin: 18px auto;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{
+        color:cornsilk;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+        color: yellowgreen;
+    }
+    .referals{
+        position: absolute;
+        right: 34px;
+        top: 18px;
+        display: inline-block;
+    }
+    .referals div img{
+        width: 136px;
+       margin-top: 10px;
+       margin-left: 60px;
+       border-radius: 50%;
+       border: 8px solid white
+    }
+    #gif{
+        width: 200px;
+        height: 200px;
+        background-image: url('/images/earth.gif');
+        border: 4px solid lightskyblue;
+        border-radius: 70%;
+        margin:20px ;
+    }
+    .container{
+        background-color:transparent ;
+  margin: 495px 80px;
+  padding: 75px;
+  width: 30%;
+  border-radius: 18%;
+  box-shadow:  -10px -10px 15px rgba(255,255,255,0.55),
+    10px 10px 15px rgba(70,70,70,0.12),
+    inset -10px -10px 15px rgba(255,255,255,0.55),
+    inset 10px 10px 15px rgba(70,70,70,0.12);
+}
+.input{
+   
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    box-shadow:  -10px -10px 15px rgba(255,255,255,0.55),
+    10px 10px 15px rgba(70,70,70,0.12),
+    inset -10px -10px 15px rgba(255,255,255,0.55),
+    inset 10px 10px 15px rgba(70,70,70,0.12);
+    margin: 11px auto;
+    font-size: 21px;
+    border-radius: 30px;
+    background-color: white;
+}
+.container h1{
+    background-color: coral;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  box-shadow:  -10px -10px 15px rgba(255,255,255,0.55),
+    10px 10px 15px rgba(70,70,70,0.12),
+    inset -10px -10px 15px rgba(255,255,255,0.55),
+    inset 10px 10px 15px rgba(70,70,70,0.12);
+}
+
+
+.container button{
+    background-color: lightpink;
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+  border-radius:10px ;
+  font-size: 15px;
+  box-shadow:  -10px -10px 15px rgba(255,255,255,0.55),
+    10px 10px 15px rgba(70,70,70,0.12),
+    inset -10px -10px 15px rgba(255,255,255,0.55),
+    inset 10px 10px 15px rgba(70,70,70,0.12);
+}
+.input{
+    background-color: darksalmon;
+}
+.content{
+    background-color: yellow;  
+}
+.w3-quarter p{
+    text-align: center;
+    font-size:24px;
+}
+</style>
+
+<body>
+<header class="header">
+    <div class="taskbar">
+        <img src="/images/sticker s.jpg" alt="">
+   <div>SJC Web Services</div>   
+    </div>
+<div class="main">
+    <ul class="navbar">
+        <li><a href="#Home" class="active">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#projects">Projects</a></li>
+    </ul>
+      </div>
+<div class="referals">
+    <a href="https://en.wikipedia.org/wiki/GIF"> <div id="gif"></div></a>
+   <div><img src="images/fb.png" alt=""></div>
+   <div><a href="www.instagram.com"><img src="/images/ig.png" alt=""></a></div>
+</div>
+</header>
+
+<div class="container">
+    <h1>About the Creator "Sachin Chauhan"</h1>
+    <h1>Hello all, thanks for visiting my Website.</h1>
+    <div class="input">
+        <p>Chauhan Sachin is a first year B.E. Mechanical Engineering student.</p>
+        <p>He is studying in Government Engineering College Bharuch of GTU.</p>
+    </div>
+        <button class="btn">Have A Nice Day</button>
+    </form>
+  </div>
+  
+        <div class="w3-quarter">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+        <strong>On a large screen the content will be displayed as a 4-column layout. On a small screen the content will adjust itself into a single-column. Resize the browser window to see the effect.</strong></p>
+        </div>
+      
+</body>
+</html>
